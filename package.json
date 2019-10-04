@@ -1,0 +1,9 @@
+{
+  "name": "techdivision_card-bootstrap4",
+  "description": "techdivision_card-bootstrap4 dependencies",
+  "version": "1.0.0",
+  "author": "TechDivision Neos Team <neos@techdivision.com>",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}

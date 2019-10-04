@@ -1,0 +1,6 @@
+prototype(TechDivision.Card:Atom.Media) {
+
+    renderer = afx`
+        <TechDivision.Card:Helper.Image.Figure imageUri={props.imageUri} imageClass="card-img-top" />
+    `
+}

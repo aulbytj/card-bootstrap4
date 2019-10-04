@@ -1,0 +1,14 @@
+prototype(TechDivision.Card:Template.Card.TitleAboveMedia) {
+
+    renderer >
+    renderer = afx`
+        <TechDivision.Card.Bootstrap4:Augmenter.CardBody>
+            <TechDivision.Card:Atom.PrimaryTitle cardTitle={props.cardTitle} secondaryText={props.secondaryText} @if.isFalse={!props.linkedTitleDisplayCondition} />
+            <TechDivision.Card:Atom.LinkedPrimaryTitle targetUri={props.targetUri} cardTitle={props.cardTitle} secondaryText={props.secondaryText} @if.isTrue={props.linkedTitleDisplayCondition} />
+            <TechDivision.Card:Atom.Actions targetUri={props.targetUri} buttonText={props.buttonText} />
+        </TechDivision.Card.Bootstrap4:Augmenter.CardBody>
+        <TechDivision.Card:Atom.Media imageUri={props.imageUri} />
+
+    `
+}
+

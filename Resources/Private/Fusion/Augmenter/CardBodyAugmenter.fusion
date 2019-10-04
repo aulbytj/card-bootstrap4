@@ -1,0 +1,3 @@
+prototype(TechDivision.Card.Bootstrap4:Augmenter.CardBody) < prototype(Neos.Fusion:Augmenter) {
+    class = 'card-body'
+}

@@ -1,0 +1,17 @@
+{
+  "description": "TechDivision.Card.Bootstrap4",
+  "type": "neos-package",
+  "name": "techdivision/card-bootstrap4",
+  "keywords": ["card", "teaser", "neos", "nodetypes", "bootstrap"],
+  "license": [
+    "GPL-3.0-or-later"
+  ],
+  "require": {
+    "techdivision/card-shuffle" : "^1.0.0"
+  },
+  "extra": {
+    "neos": {
+      "package-key": "TechDivision.Card.Bootstrap4"
+    }
+  }
+}
