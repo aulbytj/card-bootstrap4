@@ -1,7 +1,7 @@
 {
-  "description": "TechDivision.Card.Bootstrap4",
-  "type": "neos-package",
   "name": "techdivision/card-bootstrap4",
+  "type": "neos-package",
+  "description": "Adds bootstrap 4 classes to Card, Card.Deck and Card.Shuffle. Adds bootstrap stylesheets only for card mode, doesnt add bootstrap javascript.",
   "keywords": ["card", "teaser", "neos", "nodetypes", "bootstrap"],
   "license": [
     "GPL-3.0-or-later"
